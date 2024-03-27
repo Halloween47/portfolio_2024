@@ -24,4 +24,57 @@ code {
   padding: 0;
 }
 
+.section_projets {
+  background-color: yellow;
+}
+.section_projets h2 {
+  padding: 0;
+  margin: 0;
+}
+.section_projets p {
+  padding: 0;
+  margin: 0;
+}
+.section_projets .list_projets {
+  background-color: red;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.projet {
+  background-color: violet;
+  width: 15vw;
+  height: 10vw;
+  max-width: 15vw;
+  max-height: 10vw;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.projet img {
+  width: 170%;
+  height: auto;
+}
+.projet .overlay {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(21, 167, 33, 0.777);
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8rem;
+}
+
 /*# sourceMappingURL=style.css.map */

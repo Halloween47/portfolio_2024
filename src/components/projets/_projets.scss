@@ -1,0 +1,18 @@
+.section_projets {
+background-color: yellow;
+h2 {
+    padding: 0; margin: 0;
+}
+p {
+    padding: 0; margin: 0;
+}
+.list_projets {
+    background-color: red;
+    width: 100%; height: auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+}

@@ -9,14 +9,6 @@ function Projets() {
       </div>
       <div className="list_projets">
         <Projet />
-        <Projet />
-        <Projet />
-        <Projet />
-        <Projet />
-        <Projet />
-        <Projet />
-        <Projet />
-        <Projet />
       </div>
     </div>
   );

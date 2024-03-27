@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass src/style.scss src/style.css --watch"
+    "sass": "sass src/style.scss src/style.css --watch",
+    "derrix": "prettier --write \"src/**/*jsx\""
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^3.2.5",
     "sass": "^1.72.0"
   }
 }

@@ -85,6 +85,14 @@ code {
   top: 0;
   left: 0;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay .overlay_content {
+  background-color: red;
+  width: 50%;
+  height: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

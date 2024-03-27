@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import Kasa from "../../assets/kasa.png";
-import Overlay from "../overlay/overlay";
+import { useDispatch, useSelector } from "react-redux";
+import { showOverlay } from "../../store/overlaySlice";
 
 function Projet() {
-  const [showOverlay, setShowOverlay] = useState(false);
-
-  function infosProjet() {
-    setShowOverlay(true);
-  }
+  const overlay = useSelector((state) => state.overlay.overlayState);
+  console.log(overlay);
+  const dispatch = useDispatch();
 
   return (
-    <div className="projet" onClick={infosProjet}>
+    <div className="projet" onClick={() => dispatch(showOverlay())}>
       <img src={Kasa} alt="" />
       <div className="overlay">
         <p>Projet Kasa</p>

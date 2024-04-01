@@ -26,8 +26,8 @@ function Overlay() {
   return (
     <>
       <div className="overlay">
-        {/* <div className="overlay_content" ref={overlayRef}> test</div> */}
-        <div className="gauche" ref={overlayRef}>
+        <div className="overlay_content" ref={overlayRef}> 
+        <div className="gauche">
           <img src={mockup} alt="" />
         </div>
         <div className="droite">
@@ -39,9 +39,10 @@ Utilisation de Create React App pour la configuration initiale et de Node.js pou
 </div>
           <div className="skills">Liste compétences</div>
           <div className="link-github">Liens github : https://github.com/Halloween47/projet-kasa</div>
-          <Link>voir le code source</Link>
-          <Link />
+          
         </div>
+        </div>
+        
       </div>
     </>
   );

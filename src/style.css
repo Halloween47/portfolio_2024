@@ -67,7 +67,7 @@ code {
 .projet .overlay {
   width: 100%;
   height: 200px;
-  background-color: rgba(21, 167, 33, 0.777);
+  background-color: rgba(167, 118, 21, 0.511);
   position: absolute;
   z-index: 1;
   display: flex;
@@ -75,6 +75,19 @@ code {
   align-items: center;
   color: white;
   font-size: 1.8rem;
+  transition: background-color 0.5s ease-out;
+}
+.projet .overlay img {
+  width: 50%;
+  height: auto;
+}
+.projet .overlay:hover {
+  background-color: rgba(255, 255, 255, 0.777);
+  transition: background-color 0.5s ease;
+}
+.projet .overlay:hover img {
+  transform: scale(1.1);
+  transition: all 300ms;
 }
 
 .overlay {

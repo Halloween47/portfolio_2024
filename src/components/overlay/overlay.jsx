@@ -23,16 +23,6 @@ function Overlay() {
     };
   }, []);
 
-  const GitHubLink = () => (
-    <a
-      href="https://github.com/votre-utilisateur/votre-repo"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Lien GitHub
-    </a>
-  );
-
   return (
     <>
       <div className="overlay">
@@ -53,8 +43,13 @@ function Overlay() {
             </div>
             <div className="skills">Liste compétences</div>
             <div className="link-github">
-              Liens github : https://github.com/Halloween47/projet-kasa
-            <GitHubLink />
+            <a
+      href="https://github.com/votre-utilisateur/votre-repo"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Lien GitHub
+    </a>
             </div>
           </div>
         </div>

@@ -41,15 +41,19 @@ function Overlay() {
               App pour la configuration initiale et de Node.js pour exécuter du
               code JavaScript en dehors du navigateur.
             </div>
-            <div className="skills">Liste compétences</div>
+            <div className="skills">
+              <li>React JS</li>
+              <li>Redux</li>
+              <li>React Router</li>
+            </div>
             <div className="link-github">
-            <a
-      href="https://github.com/votre-utilisateur/votre-repo"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Lien GitHub
-    </a>
+              <a
+                href="https://github.com/votre-utilisateur/votre-repo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Lien GitHub
+              </a>
             </div>
           </div>
         </div>

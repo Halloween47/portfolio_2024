@@ -104,13 +104,12 @@ code {
 }
 .overlay .overlay_content {
   background-color: red;
-  width: 100%;
+  width: 80%;
   height: 80vh;
   display: flex;
   justify-content: center;
 }
 .overlay .overlay_content .gauche {
-  background-color: blue;
   width: 40%;
   height: 100%;
   display: flex;
@@ -122,7 +121,6 @@ code {
   height: auto;
 }
 .overlay .overlay_content .droite {
-  background-color: rgb(0, 255, 8);
   width: 40%;
   height: 100%;
   display: flex;
@@ -135,7 +133,19 @@ code {
 }
 .overlay .overlay_content .droite .presentation {
   text-align: left;
-  margin: 3em 0px;
+  margin: 1em 0px;
+}
+.overlay .overlay_content .droite .skills {
+  display: flex;
+  list-style: none;
+  margin: 10px 0px;
+}
+.overlay .overlay_content .droite .skills li {
+  background-color: blue;
+  color: white;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

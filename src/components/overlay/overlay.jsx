@@ -4,7 +4,7 @@ import { hideOverlay } from "../../store/overlaySlice";
 import mockup from "../../assets/kasa_mockup.png";
 import { NavLink } from "react-router-dom";
 
-function Overlay({titre, description, link}) {
+function Overlay({titre, description, link, mockup}) {
   const overlayRef = useRef(null);
 
   const overlay = useSelector((state) => state.overlay.overlayState);
@@ -23,9 +23,6 @@ function Overlay({titre, description, link}) {
     };
   }, []);
 
-// const mockup = useSelector((state) => state.tuilesInfos.mockup)
-// const mockupProjet = mockup;
-// console.log(mockup);
 
   return (
     <>
@@ -33,8 +30,6 @@ function Overlay({titre, description, link}) {
         <div className="overlay_content" ref={overlayRef}>
           <div className="gauche">
             <img src={mockup} alt="" />
-            {/* <img src={mockupProjet} alt="" /> */}
-            {/* <img src="../../assets/kasa_mockup.png" alt="" /> */}
           </div>
           <div className="droite">
             {/* <div className="nom">Projet Kasa {titre}</div> */}

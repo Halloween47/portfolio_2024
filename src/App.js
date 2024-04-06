@@ -5,11 +5,15 @@ import Projets from "./components/projets/projets";
 
 function App() {
   const overlay = useSelector((state) => state.overlay.overlayState);
-  console.log(overlay);
+  const titreProjet = useSelector((state) => state.tuilesInfos.titre);
+  const descriptionProjet = useSelector((state) => state.tuilesInfos.description);
+  const linkProjet = useSelector((state) =>  state.tuilesInfos.link);
+  const mockupProjet = useSelector((state) =>  state.tuilesInfos.mockup);
+  console.log(mockupProjet);
   const dispatch = useDispatch();
   return (
     <div className="App">
-      {overlay && <Overlay />}
+      {overlay && <Overlay titre={titreProjet} description={descriptionProjet} link={linkProjet} mockup={mockupProjet} />}
       <div className="hero">
         <p>Thomas Leconte</p>
         <h1>Développeur Javascript React</h1>

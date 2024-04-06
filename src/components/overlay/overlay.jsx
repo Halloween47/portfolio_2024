@@ -4,7 +4,7 @@ import { hideOverlay } from "../../store/overlaySlice";
 import mockup from "../../assets/kasa_mockup.png";
 import { NavLink } from "react-router-dom";
 
-function Overlay() {
+function Overlay({titre, description, link}) {
   const overlayRef = useRef(null);
 
   const overlay = useSelector((state) => state.overlay.overlayState);
@@ -23,23 +23,24 @@ function Overlay() {
     };
   }, []);
 
+// const mockup = useSelector((state) => state.tuilesInfos.mockup)
+// const mockupProjet = mockup;
+// console.log(mockup);
+
   return (
     <>
       <div className="overlay">
         <div className="overlay_content" ref={overlayRef}>
           <div className="gauche">
             <img src={mockup} alt="" />
+            {/* <img src={mockupProjet} alt="" /> */}
+            {/* <img src="../../assets/kasa_mockup.png" alt="" /> */}
           </div>
           <div className="droite">
-            <div className="nom">Projet Kasa</div>
+            {/* <div className="nom">Projet Kasa {titre}</div> */}
+            <div className="nom">{titre}</div>
             <div className="presentation">
-              Implémentation du front-end d'une application avec des composants
-              React pour la logique de présentation des données et React Router
-              pour une gestion efficace du routage. Développement exclusif du
-              front-end en se basant sur des maquettes fournies et des données
-              simulées extraites d'un fichier JSON. Utilisation de Create React
-              App pour la configuration initiale et de Node.js pour exécuter du
-              code JavaScript en dehors du navigateur.
+              {description}
             </div>
             <div className="skills">
               <li>React JS</li>
@@ -48,7 +49,7 @@ function Overlay() {
             </div>
             <div className="link-github">
               <a
-                href="https://github.com/votre-utilisateur/votre-repo"
+                href={link}
                 target="_blank"
                 rel="noopener noreferrer"
               >

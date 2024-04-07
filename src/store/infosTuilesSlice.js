@@ -6,7 +6,8 @@ const infosTuilesSLice = createSlice({
         titre: '',
         description: '',
         link: '',
-        mockup: ''
+        mockup: '',
+        tech:''
     },
     reducers: {
         setTitre: (state, action) => {
@@ -20,9 +21,12 @@ const infosTuilesSLice = createSlice({
         },
         setMockup: (state, action) => {
             state.mockup = action.payload;
+        },
+        setTech: (state, action) => {
+            state.tech = action.payload;
         }
     }
 })
 
-export const {setTitre, setDescription, setLink, setMockup } = infosTuilesSLice.actions;
+export const {setTitre, setDescription, setLink, setMockup, setTech } = infosTuilesSLice.actions;
 export default infosTuilesSLice.reducer;

@@ -4,7 +4,7 @@ import { hideOverlay } from "../../store/overlaySlice";
 import mockup from "../../assets/kasa_mockup.png";
 import { NavLink } from "react-router-dom";
 
-function Overlay({titre, description, link, mockup}) {
+function Overlay({titre, description, link, mockup, tech}) {
   const overlayRef = useRef(null);
 
   const overlay = useSelector((state) => state.overlay.overlayState);
@@ -23,7 +23,6 @@ function Overlay({titre, description, link, mockup}) {
     };
   }, []);
 
-
   return (
     <>
       <div className="overlay">
@@ -38,9 +37,12 @@ function Overlay({titre, description, link, mockup}) {
               {description}
             </div>
             <div className="skills">
-              <li>React JS</li>
+              {/* <li>React JS</li>
               <li>Redux</li>
-              <li>React Router</li>
+              <li>React Router</li> */}
+              {tech.map((skill, index) => (
+                <li key={index}>{skill}</li>
+              ))}
             </div>
             <div className="link-github">
               <a

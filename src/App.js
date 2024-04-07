@@ -9,11 +9,12 @@ function App() {
   const descriptionProjet = useSelector((state) => state.tuilesInfos.description);
   const linkProjet = useSelector((state) =>  state.tuilesInfos.link);
   const mockupProjet = useSelector((state) =>  state.tuilesInfos.mockup);
-  console.log(mockupProjet);
+  const techProjet = useSelector((state) =>  state.tuilesInfos.tech);
+  console.log(techProjet);
   const dispatch = useDispatch();
   return (
     <div className="App">
-      {overlay && <Overlay titre={titreProjet} description={descriptionProjet} link={linkProjet} mockup={mockupProjet} />}
+      {overlay && <Overlay titre={titreProjet} description={descriptionProjet} link={linkProjet} mockup={mockupProjet} tech={techProjet} />}
       <div className="hero">
         <p>Thomas Leconte</p>
         <h1>Développeur Javascript React</h1>

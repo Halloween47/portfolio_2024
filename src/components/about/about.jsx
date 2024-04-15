@@ -27,9 +27,6 @@ function About() {
           <p>
             Formations professionnelles<br/>
             <ShowMore nom="nomTesst" />
-            <ShowMore />
-            <ShowMore />
-            <ShowMore />
           </p>
         </div>
         <div className="experience" id="experience">

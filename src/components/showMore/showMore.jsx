@@ -9,13 +9,15 @@ function ShowMore(props) {
   return (
     <div className="show-more">
       <p>test {props.nom}</p>
-      <Accordion>
+      <Accordion className="testColor">
         <AccordionSummary
           expandIcon={<ArrowDropDownIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
+          style={{ backgroundColor: 'lightgreen' }}
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>Développeur d'applications JavaScript React</Typography>
+          <Typography sx={{ color: 'text.secondary' }}>Decembre 2022 - Fevrier 2024</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

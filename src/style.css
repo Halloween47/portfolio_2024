@@ -217,4 +217,11 @@ code {
   align-items: center;
 }
 
+.show-more {
+  background-color: red;
+}
+.show-more .testColor {
+  background-color: rgb(108, 108, 155);
+}
+
 /*# sourceMappingURL=style.css.map */

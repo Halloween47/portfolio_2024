@@ -1,8 +1,35 @@
 .show-more {
-background-color: red;
+    background-color: rgb(32, 213, 35);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .accordion {
+        background-color: rgb(108, 108, 155);
+        width: 100%;
+        
+        .accordionTypography:first-child {
+            // background-color: violet;
+            font-size: 1rem;
+        }
+        .accordionTypography:last-child {
+            // background-color: rgb(17, 78, 158);
+            // font-size: .7rem;
+            margin-left: 20px;
+        }
+        .css-eqpfi5-MuiAccordionSummary-content {
+            justify-content: space-between;
+        }
 
-.testColor {
-    background-color: rgb(108, 108, 155);
-}
-
+        .accordionDetails {
+            text-align: left;
+            ul {
+                background-color: red;
+                text-align: left;
+            }
+        }
+    }
+    
 }

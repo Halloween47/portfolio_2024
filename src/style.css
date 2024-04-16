@@ -218,10 +218,32 @@ code {
 }
 
 .show-more {
-  background-color: red;
+  background-color: rgb(32, 213, 35);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.show-more .testColor {
+.show-more .accordion {
   background-color: rgb(108, 108, 155);
+  width: 100%;
+}
+.show-more .accordion .accordionTypography:first-child {
+  font-size: 1rem;
+}
+.show-more .accordion .accordionTypography:last-child {
+  margin-left: 20px;
+}
+.show-more .accordion .css-eqpfi5-MuiAccordionSummary-content {
+  justify-content: space-between;
+}
+.show-more .accordion .accordionDetails {
+  text-align: left;
+}
+.show-more .accordion .accordionDetails ul {
+  background-color: red;
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */

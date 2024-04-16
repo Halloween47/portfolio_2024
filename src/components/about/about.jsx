@@ -38,6 +38,7 @@ function About() {
           <p>
             Formations professionnelles
             <br />
+            <br />
             <ShowMore nom="nomTesst" />
           </p>
         </div>

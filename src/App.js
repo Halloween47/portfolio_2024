@@ -3,6 +3,7 @@ import "./App.css";
 import Overlay from "./components/overlay/overlay";
 import Projets from "./components/projets/projets";
 import About from "./components/about/about";
+import Menu from "./components/menu/menu";
 
 function App() {
   const overlay = useSelector((state) => state.overlay.overlayState);
@@ -26,6 +27,7 @@ function App() {
           tech={techProjet}
         />
       )}
+      <Menu />
       <div className="hero">
         <p>Thomas Leconte</p>
         <h1>Développeur Javascript React</h1>

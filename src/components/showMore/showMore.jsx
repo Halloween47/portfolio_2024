@@ -14,10 +14,18 @@ function ShowMore(props) {
           expandIcon={<ArrowDropDownIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
-          style={{ backgroundColor: 'lightgreen' }}
+          style={{ backgroundColor: "lightgreen" }}
         >
-          <Typography className="accordionTypography">Développeur d'applications JavaScript React</Typography>
-          <Typography className="accordionTypography" sx={{ color: 'text.secondary' }}> 2022 - 2024</Typography>
+          <Typography className="accordionTypography">
+            Développeur d'applications JavaScript React
+          </Typography>
+          <Typography
+            className="accordionTypography"
+            sx={{ color: "text.secondary" }}
+          >
+            {" "}
+            2022 - 2024
+          </Typography>
         </AccordionSummary>
         <AccordionDetails className="accordionDetails">
           {/* <Typography>
@@ -26,15 +34,15 @@ function ShowMore(props) {
           </Typography> */}
           <Typography>RNCP Niveau 6 (bac +3/4) - OpenClassRooms</Typography>
           <ul class="">
-              <li>Intégration de maquettes (HTML, CSS)</li>
-              <li>Responsive web design</li>
-              <li>Animation CSS3</li>
-              <li>JavaScript (DOM, Event, ...)</li>
-              <li>Accessibilité</li>
-              <li>Création d'application ReactJS</li>
-              <li>Système de gestion d'état avec Redux</li>
-              <li>Optimisation des performances</li>
-            </ul>
+            <li>Intégration de maquettes (HTML, CSS)</li>
+            <li>Responsive web design</li>
+            <li>Animation CSS3</li>
+            <li>JavaScript (DOM, Event, ...)</li>
+            <li>Accessibilité</li>
+            <li>Création d'application ReactJS</li>
+            <li>Système de gestion d'état avec Redux</li>
+            <li>Optimisation des performances</li>
+          </ul>
         </AccordionDetails>
       </Accordion>
     </div>

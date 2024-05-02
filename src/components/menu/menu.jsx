@@ -7,7 +7,7 @@ function Menu() {
       <div id="hamburger">
         <FontAwesomeIcon icon={faBars} />
       </div>
-      <h1>Menu</h1>
+      <p>Bienvenue</p>
     </div>
   );
 }

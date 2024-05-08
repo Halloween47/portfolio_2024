@@ -12,6 +12,7 @@ code {
 
 @media only screen and (max-width: 768px) {
   .menu {
+    background-color: #248ba4;
     display: flex;
     align-items: center;
   }
@@ -26,6 +27,31 @@ code {
   .menu p {
     text-align: center;
     color: white;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner {
+    background-color: violet;
+    width: 90%;
+    height: 70px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .banner p {
+    margin: 0;
+  }
+  .banner p:nth-child(1) {
+    font-size: 0.8rem;
+    margin: 0 !important;
+    padding: 0;
+  }
+  .banner p:nth-child(2) {
+    font-size: 1rem;
+    margin: 0 !important;
+    padding: 0;
+    font-weight: 600;
   }
 }
 .hero {

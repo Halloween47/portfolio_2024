@@ -80,6 +80,18 @@ code {
   height: auto;
 }
 
+.mobile-contact {
+  background-color: red;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.mobile-contact .component-contact {
+  background-color: rgb(132, 40, 40);
+}
+
 .hero {
   background-color: rgb(11, 6, 103);
   width: 100%;

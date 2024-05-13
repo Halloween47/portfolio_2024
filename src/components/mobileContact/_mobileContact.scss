@@ -2,10 +2,17 @@
     background-color: red;
     width: 100%; height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 10px 0px;
 
     .component-contact {
         background-color: rgb(132, 40, 40);
+    }
+    button {
+        width: 90%;
+        height: 30px;
+        margin-top: 10px;
     }
 }

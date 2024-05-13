@@ -1,0 +1,13 @@
+.mobile-tuile {
+    background-color: rgb(10, 17, 97);
+    width: 40%; height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100px; height: auto;
+    }
+}

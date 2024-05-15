@@ -80,6 +80,16 @@ code {
   height: auto;
 }
 
+.MobileAbout {
+  background-color: #470d97;
+}
+.MobileAbout .MobileAboutNav {
+  background-color: #56f869;
+}
+.MobileAbout .MobileAboutCompenents {
+  background-color: #7da7f0;
+}
+
 .mobile-contact {
   background-color: red;
   width: 100%;

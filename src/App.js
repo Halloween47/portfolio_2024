@@ -7,6 +7,7 @@ import Menu from "./components/menu/menu";
 import Banner from "./components/banner/banner";
 import MobileHub from "./components/mobile-hub/mobileHub";
 import MobileContact from "./components/mobileContact/mobileContact";
+import MobileAbout from "./components/mobileAbout/mobileAbout";
 
 function App() {
   const overlay = useSelector((state) => state.overlay.overlayState);
@@ -33,6 +34,7 @@ function App() {
       <Menu />
       <Banner />
       <MobileHub />
+      <MobileAbout />
       <MobileContact />
       <div className="hero">
         <p>Thomas Leconte</p>

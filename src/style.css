@@ -95,6 +95,12 @@ code {
   margin: 20px;
 }
 
+.mobileCertificate {
+  background-color: #c0107f;
+  width: 100%;
+  height: auto;
+}
+
 .mobile-contact {
   background-color: red;
   width: 100%;

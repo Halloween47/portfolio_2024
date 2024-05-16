@@ -12,11 +12,11 @@ import HotelIcon from '@mui/icons-material/Hotel';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 
-const MobileCertificate = () => {
+function MobileCertificate() {
   return (
     <div className="mobileCertificate">
-<div>MobileCertificate</div>
-    <Timeline position="alternate">
+        <h2>test</h2>
+<Timeline >
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -95,7 +95,6 @@ const MobileCertificate = () => {
     </Timeline>
     </div>
     
-  )
+  );
 }
 export default MobileCertificate
-

@@ -1,5 +1,6 @@
 import React from 'react'
 import MobileAboutMe from '../mobileAboutMe/mobileAboutMe'
+import MobileCertificate from '../mobileCertificate/mobileCertificate'
 
 const MobileAbout = () => {
   return (
@@ -8,6 +9,8 @@ const MobileAbout = () => {
         <div className="MobileAboutCompenents">
           MobileAboutCompenents
           <MobileAboutMe />
+          
+      <MobileCertificate />
           </div>
         </div>
   )

@@ -358,6 +358,20 @@ code {
 .show-more .accordion .accordionDetails {
   text-align: left;
 }
+.show-more .accordion .accordionDetails .accordionDetailsRow1 {
+  display: flex;
+  justify-content: space-around;
+}
+.show-more .accordion .accordionDetails .accordionDetailsRow3 {
+  display: flex;
+}
+.show-more .accordion .accordionDetails .accordionDetailsRow3 p {
+  background-color: blue;
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
 .show-more .accordion .accordionDetails ul {
   background-color: red;
   text-align: left;

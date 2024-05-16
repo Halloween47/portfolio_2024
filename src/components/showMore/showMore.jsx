@@ -28,21 +28,20 @@ function ShowMore(props) {
           </Typography>
         </AccordionSummary>
         <AccordionDetails className="accordionDetails">
-          {/* <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography> */}
-          <Typography>RNCP Niveau 6 (bac +3/4) - OpenClassRooms</Typography>
-          <ul class="">
-            <li>Intégration de maquettes (HTML, CSS)</li>
-            <li>Responsive web design</li>
-            <li>Animation CSS3</li>
-            <li>JavaScript (DOM, Event, ...)</li>
-            <li>Accessibilité</li>
-            <li>Création d'application ReactJS</li>
-            <li>Système de gestion d'état avec Redux</li>
-            <li>Optimisation des performances</li>
-          </ul>
+          <div className="accordionDetailsRow1">
+          <Typography>ER Digital </Typography>
+          <Typography>14000 Houlgate</Typography>
+
+          </div>
+          <div className="accordionDetailsRow2">
+          <Typography>En tant que développeur web j'ai utilisé mes compétences en PHP pour créer des applications web dynamiques et interactives..</Typography>
+            </div>
+          <div className="accordionDetailsRow3">
+            <p>Tech1</p>
+            <p>Tech1</p>
+            <p>Tech1</p>
+            <p>Tech1</p>
+          </div>
         </AccordionDetails>
       </Accordion>
     </div>

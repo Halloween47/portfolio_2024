@@ -27,6 +27,20 @@
 
         .accordionDetails {
             text-align: left;
+            .accordionDetailsRow1 {
+                display: flex;
+                justify-content: space-around;
+            }
+            .accordionDetailsRow3 {
+                display: flex;
+                p {
+                    background-color: blue;
+                    color: white;
+                    margin-right: 10px;
+                    padding: 10px;
+                    border-radius: 20px;
+                }
+            }
             ul {
                 background-color: red;
                 text-align: left;

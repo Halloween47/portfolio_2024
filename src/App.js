@@ -8,6 +8,7 @@ import Banner from "./components/banner/banner";
 import MobileHub from "./components/mobile-hub/mobileHub";
 import MobileContact from "./components/mobileContact/mobileContact";
 import MobileAbout from "./components/mobileAbout/mobileAbout";
+import MobileCertificate from "./components/mobileCertificate/mobileCertificate";
 
 function App() {
   const overlay = useSelector((state) => state.overlay.overlayState);
@@ -35,6 +36,7 @@ function App() {
       <Banner />
       <MobileHub />
       <MobileAbout />
+      <MobileCertificate />
       <MobileContact />
       <div className="hero">
         <p>Thomas Leconte</p>

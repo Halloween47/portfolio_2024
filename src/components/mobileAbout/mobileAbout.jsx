@@ -1,6 +1,7 @@
 import React from 'react'
 import MobileAboutMe from '../mobileAboutMe/mobileAboutMe'
 import MobileCertificate from '../mobileCertificate/mobileCertificate'
+import ShowMore from '../showMore/showMore'
 
 const MobileAbout = () => {
   return (
@@ -11,6 +12,7 @@ const MobileAbout = () => {
           <MobileAboutMe />
           
       <MobileCertificate />
+      <ShowMore />
           </div>
         </div>
   )

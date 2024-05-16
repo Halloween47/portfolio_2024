@@ -17,7 +17,7 @@ function ShowMore(props) {
           style={{ backgroundColor: "lightgreen" }}
         >
           <Typography className="accordionTypography">
-            Développeur d'applications JavaScript React
+          Web Developper
           </Typography>
           <Typography
             className="accordionTypography"

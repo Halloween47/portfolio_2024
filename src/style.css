@@ -336,6 +336,7 @@ code {
 .show-more {
   background-color: rgb(32, 213, 35);
   width: 100%;
+  padding: 100px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -343,7 +344,7 @@ code {
 }
 .show-more .accordion {
   background-color: rgb(108, 108, 155);
-  width: 100%;
+  width: 80%;
 }
 .show-more .accordion .accordionTypography:first-child {
   font-size: 1rem;

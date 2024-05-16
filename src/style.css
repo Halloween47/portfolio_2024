@@ -90,6 +90,11 @@ code {
   background-color: #7da7f0;
 }
 
+.mobileAboutMe {
+  background-color: #aae90d;
+  margin: 20px;
+}
+
 .mobile-contact {
   background-color: red;
   width: 100%;

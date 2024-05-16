@@ -1,9 +1,16 @@
 .MobileAbout {
     background-color: #470d97;
-   .MobileAboutNav {
-    background-color: #56f869;
-} 
-.MobileAboutCompenents {
-       background-color: #7da7f0;
-   }
+    .MobileAboutNav {
+        background-color: #56f869;
+        ul {
+            display: flex; 
+            justify-content: space-around;
+            li {
+                list-style: none;
+            }    
+        }
+    } 
+    .MobileAboutCompenents {
+        background-color: #7da7f0;
+    }
 }

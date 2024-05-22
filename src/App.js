@@ -38,7 +38,7 @@ function App() {
       <Menu />
       <Banner />
       <MobileHub />
-      <MobileSectionProjets />
+      {/* <MobileSectionProjets />
       <MobileAbout />
       <MobileContact />
       <div className="hero">
@@ -46,7 +46,7 @@ function App() {
         <h1>Développeur Javascript React</h1>
       </div>
       <Projets />
-      <About />
+      <About /> */}
     </div>
   );
 }

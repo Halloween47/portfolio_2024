@@ -4,15 +4,16 @@ import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 
 const steps = [
-    'Select master',
-    'Create an ad group',
-    'Create an ad',
+    'Prototype Numérique',
+    'Designer Web',
+    'Développeur Front-End JavaScript React',
+    'Développeur Full Stack',
   ];
 
 function componentStepper() {
   return (
     <div className="stepper">
-        <Stepper activeStep={1} alternativeLabel>
+        <Stepper activeStep={2} alternativeLabel>
             {steps.map((label) => (
                 <Step key={label}>
                     <StepLabel>{label}</StepLabel>

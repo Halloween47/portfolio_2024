@@ -1,3 +1,9 @@
 .stepper {
-    margin: 10px;
+    background-color: orange;
+    width: 100%;
+    margin: 10px 0px;
+
+    .MuiStepLabel-label {
+        font-size: .7rem;
+    }
 }

@@ -94,7 +94,12 @@ code {
 }
 
 .stepper {
-  margin: 10px;
+  background-color: orange;
+  width: 100%;
+  margin: 10px 0px;
+}
+.stepper .MuiStepLabel-label {
+  font-size: 0.7rem;
 }
 
 .mobileSectionProjets {

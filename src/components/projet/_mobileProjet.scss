@@ -1,0 +1,48 @@
+.projet2 {
+    background-color: orange;
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    margin: 20px 0px;
+    
+    img {
+        background-color: pink;
+        width: 30%; height: auto;
+    }
+    .details {
+        background-color: red;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        h3 {
+            margin: 0;padding: 0;
+        }
+        p {
+
+            text-align: left;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+        }
+        
+        .stack {
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            li {
+                background-color: violet;
+                width: auto;
+                background-color: violet;
+                height: auto;
+                padding-right: 20px;
+                margin-right: 10px;
+                font-size: .7rem;
+            }
+        }
+    }
+}

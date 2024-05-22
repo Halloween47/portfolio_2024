@@ -10,6 +10,7 @@ import MobileContact from "./components/mobileContact/mobileContact";
 import MobileAbout from "./components/mobileAbout/mobileAbout";
 import MobileCertificate from "./components/mobileCertificate/mobileCertificate";
 import BasicTimeline from "./components/mobileCertificate/mobileCertificate";
+import MobileSectionProjets from "./components/mobileProjets/mobileProjets";
 // import CustomizedTimeline from "./components/mobileCertificate/mobileCertificate";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <Menu />
       <Banner />
       <MobileHub />
+      <MobileSectionProjets />
       <MobileAbout />
       <MobileContact />
       <div className="hero">

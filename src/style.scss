@@ -1,14 +1,22 @@
 @import 'sass/base';
 
 @import 'components/menu/menuMobile';
+
 @import 'components/banner/banner';
+
 @import 'components/mobile-hub/mobileHub';
 @import 'components/mobileHubTuile/mobileHubTuile';
+
+@import 'components/mobileProjets/mobileSectionProjets';
+@import 'components/projet/mobileProjet';
+
 @import 'components/mobileAbout/mobileAbout';
 @import 'components/mobileAboutMe/mobileAboutMe';
 @import 'components/mobileCertificate/mobileCertificate';
+
 @import 'components/mobileContact/mobileContact';
 
+// ANCIEN
 @import 'sass/hero';
 @import 'sass/heroMobile';
 

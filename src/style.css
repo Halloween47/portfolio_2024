@@ -80,6 +80,61 @@ code {
   height: auto;
 }
 
+.mobileSectionProjets {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projet2 {
+  background-color: orange;
+  width: 90%;
+  height: 15vh;
+  display: flex;
+  margin: 20px 0px;
+}
+.projet2 img {
+  background-color: pink;
+  width: 30%;
+  height: auto;
+}
+.projet2 .details {
+  background-color: red;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+.projet2 .details h3 {
+  margin: 0;
+  padding: 0;
+}
+.projet2 .details p {
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.projet2 .details .stack {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.projet2 .details .stack li {
+  background-color: violet;
+  width: auto;
+  background-color: violet;
+  height: auto;
+  padding-right: 20px;
+  margin-right: 10px;
+  font-size: 0.7rem;
+}
+
 .MobileAbout {
   background-color: #470d97;
 }

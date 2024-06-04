@@ -1,6 +1,8 @@
 .mobile-tuile {
-    background-color: rgb(10, 17, 97);
-    width: 40%; height: 150px;
+    background-color: #22232C;
+    // background-color: #1627c2;
+    width: 40vw; 
+    height: 40vw;
     color: white;
     display: flex;
     flex-direction: column;
@@ -9,5 +11,8 @@
 
     img {
         width: 100px; height: auto;
+    }
+    p {
+        font-size: 1.5rem;
     }
 }

@@ -1,9 +1,18 @@
 .stepper {
-    background-color: orange;
-    width: 100%;
-    margin: 10px 0px;
-
+    background-color: #22232C;
+    width: 90%;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    
     .MuiStepLabel-label {
         font-size: .7rem;
+        color: white;
+    }
+    .css-1hv8oq8-MuiStepLabel-label.Mui-active {
+        color: white;
+    }
+    .css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+        background-color: #0b1fd5;
+        color: white;
     }
 }

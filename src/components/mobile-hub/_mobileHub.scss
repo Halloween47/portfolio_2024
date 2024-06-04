@@ -1,16 +1,19 @@
 .mobile-hub {
-    background-color: green !important;
-    width: 100%; height: 80vh;
+    // background-color: green !important;
+    background-color: 17181C !important;
+    width: 100%; 
+    // height: 80vh;
     display: flex;
-    // justify-content: space-around;
-    // align-items: center;
+    // justify-content: center;
+    align-items: center;
     // flex-wrap: wrap;
     flex-direction: column;
     padding-top: 20px;
     .zoneHub {
-        width: 100%; height: 60vh;
+        // background-color: #de8219;
+        width: 90%; height: 50vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
     }

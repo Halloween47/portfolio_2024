@@ -3,7 +3,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: blue;
 }
 
 code {
@@ -11,14 +10,14 @@ code {
 }
 
 .App {
-  background-color: white;
+  background-color: #17181C;
   width: 100%;
   height: 100vh;
 }
 
 @media only screen and (max-width: 768px) {
   .menu {
-    background-color: #248ba4;
+    background-color: #22232C;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -37,51 +36,70 @@ code {
   }
 }
 @media only screen and (max-width: 768px) {
-  .banner {
-    background-color: violet;
+  .zone-banner {
     width: 90%;
-    height: 10vh;
-    margin: 10px auto;
+    height: 20vh;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .zone-banner .banner {
+    background-color: #22232C;
+    width: 100%;
+    height: 15vh;
     padding: 10px;
     border-radius: 5px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .banner p {
+  .zone-banner .banner p {
     margin: 0;
+    color: bisque;
+    font-size: 1.5rem !important;
   }
-  .banner p:nth-child(1) {
+  .zone-banner .banner p:nth-child(1) {
     font-size: 0.8rem;
     margin: 0 !important;
     padding: 0;
   }
-  .banner p:nth-child(2) {
+  .zone-banner .banner p:nth-child(2) {
     font-size: 1rem;
     margin: 0 !important;
     padding: 0;
     font-weight: 600;
   }
+  .zone-banner img {
+    position: absolute;
+    top: -40px;
+    right: -30px;
+    width: 50%;
+    height: auto;
+  }
 }
 .mobile-hub {
-  background-color: green !important;
+  background-color: 17181C !important;
   width: 100%;
-  height: 80vh;
   display: flex;
+  align-items: center;
   flex-direction: column;
   padding-top: 20px;
 }
 .mobile-hub .zoneHub {
-  width: 100%;
-  height: 60vh;
+  width: 90%;
+  height: 50vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .mobile-tuile {
-  background-color: rgb(10, 17, 97);
-  width: 40%;
-  height: 150px;
+  background-color: #22232C;
+  width: 40vw;
+  height: 40vw;
   color: white;
   display: flex;
   flex-direction: column;
@@ -92,14 +110,26 @@ code {
   width: 100px;
   height: auto;
 }
+.mobile-tuile p {
+  font-size: 1.5rem;
+}
 
 .stepper {
-  background-color: orange;
-  width: 100%;
-  margin: 10px 0px;
+  background-color: #22232C;
+  width: 90%;
+  margin: 20px 0px;
+  padding: 20px 0px;
 }
 .stepper .MuiStepLabel-label {
   font-size: 0.7rem;
+  color: white;
+}
+.stepper .css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  color: white;
+}
+.stepper .css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+  background-color: #0b1fd5;
+  color: white;
 }
 
 .mobileSectionProjets {

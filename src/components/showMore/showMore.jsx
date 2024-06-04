@@ -17,7 +17,7 @@ function ShowMore(props) {
           style={{ backgroundColor: "lightgreen" }}
         >
           <Typography className="accordionTypography">
-          Web Developper
+            Web Developper
           </Typography>
           <Typography
             className="accordionTypography"
@@ -29,13 +29,15 @@ function ShowMore(props) {
         </AccordionSummary>
         <AccordionDetails className="accordionDetails">
           <div className="accordionDetailsRow1">
-          <Typography>ER Digital </Typography>
-          <Typography>14000 Houlgate</Typography>
-
+            <Typography>ER Digital </Typography>
+            <Typography>14000 Houlgate</Typography>
           </div>
           <div className="accordionDetailsRow2">
-          <Typography>En tant que développeur web j'ai utilisé mes compétences en PHP pour créer des applications web dynamiques et interactives..</Typography>
-            </div>
+            <Typography>
+              En tant que développeur web j'ai utilisé mes compétences en PHP
+              pour créer des applications web dynamiques et interactives..
+            </Typography>
+          </div>
           <div className="accordionDetailsRow3">
             <p>Tech1</p>
             <p>Tech1</p>

@@ -39,7 +39,7 @@ code {
   .zone-banner {
     width: 90%;
     height: 20vh;
-    margin: 20px auto;
+    margin: 20px auto 0px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -58,7 +58,7 @@ code {
   .zone-banner .banner p {
     margin: 0;
     color: bisque;
-    font-size: 1.5rem !important;
+    font-size: 16px !important;
   }
   .zone-banner .banner p:nth-child(1) {
     font-size: 0.8rem;
@@ -85,14 +85,12 @@ code {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 20px;
 }
 .mobile-hub .zoneHub {
   width: 90%;
   height: 50vh;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -105,23 +103,23 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 5px;
 }
 .mobile-tuile img {
-  width: 100px;
+  width: 40%;
   height: auto;
 }
 .mobile-tuile p {
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 .stepper {
   background-color: #22232C;
   width: 90%;
-  margin: 20px 0px;
   padding: 20px 0px;
 }
 .stepper .MuiStepLabel-label {
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   color: white;
 }
 .stepper .css-1hv8oq8-MuiStepLabel-label.Mui-active {

@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import Overlay from "./components/overlay/overlay";
 import Projets from "./components/projets/projets";
+import CardProjet from "./components/projet/projet";
 import About from "./components/about/about";
 import Menu from "./components/menu/menu";
 import Banner from "./components/banner/banner";
@@ -38,6 +39,9 @@ function App() {
       <Menu />
       <Banner />
       <MobileHub />
+      {/* <Projets /> */}
+
+      
       {/* <MobileSectionProjets />
       <MobileAbout />
       <MobileContact />

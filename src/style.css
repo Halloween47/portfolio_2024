@@ -150,7 +150,7 @@ code {
   height: auto;
 }
 .projet2 .details {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -158,16 +158,19 @@ code {
   padding: 10px;
 }
 .projet2 .details h3 {
+  background-color: orange;
   margin: 0;
   padding: 0;
 }
 .projet2 .details p {
+  background-color: #a41616;
   text-align: left;
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
+  margin-bottom: 10px;
 }
 .projet2 .details .stack {
   background-color: green;
@@ -254,14 +257,16 @@ code {
 }
 .section_projets {
   background-color: yellow;
+  padding: 10px 0;
+  margin: 0;
 }
 .section_projets h2 {
   padding: 0;
   margin: 0;
 }
 .section_projets p {
-  padding: 0;
   margin: 0;
+  padding-bottom: 10px;
 }
 .section_projets .list_projets {
   background-color: red;

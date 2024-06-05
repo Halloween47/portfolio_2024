@@ -10,23 +10,27 @@
         width: 30%; height: auto;
     }
     .details {
-        background-color: red;
+        // background-color: red;
+        background-color: rgb(255, 255, 255);
         width: 70%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
         h3 {
-            margin: 0;padding: 0;
+            background-color: orange;
+            margin: 0 ;padding: 0;
         }
         p {
-
+background-color: #a41616;
             text-align: left;
             text-overflow: ellipsis;
             overflow: hidden;
             display: -webkit-box;
             -webkit-box-orient: vertical;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 2;
+            // -webkit-line-clamp: 2;
+            margin-bottom: 10px;
         }
         
         .stack {

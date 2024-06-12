@@ -18,7 +18,8 @@ function App() {
   const overlay = useSelector((state) => state.overlay.overlayState);
   const projets = useSelector((state) => state.projets.projetsState);
   const contact = useSelector((state) => state.contact.contactState);
-  console.log(projets);
+  const about = useSelector((state) => state.about.aboutState);
+
   const titreProjet = useSelector((state) => state.tuilesInfos.titre);
   const descriptionProjet = useSelector(
     (state) => state.tuilesInfos.description,
@@ -26,7 +27,7 @@ function App() {
   const linkProjet = useSelector((state) => state.tuilesInfos.link);
   const mockupProjet = useSelector((state) => state.tuilesInfos.mockup);
   const techProjet = useSelector((state) => state.tuilesInfos.tech);
-  console.log(techProjet);
+
   const dispatch = useDispatch();
   return (
     <div className="App">
@@ -45,7 +46,8 @@ function App() {
       {/* <Projets /> */}
       {projets && <Projets />}
       {contact && <MobileContact />}
-      <MobileAbout />
+      {about && <MobileAbout />}
+      
 
       {/* <MobileSectionProjets />
       <MobileAbout />

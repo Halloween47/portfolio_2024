@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { showProjets } from "../../store/projetsSlices";
 import { showContact } from "../../store/contactSlice";
+import { showAboutMe } from "../../store/aboutSlice";
 
 function MobileHubTuile(props) {
   const dispatch = useDispatch();
@@ -17,6 +18,7 @@ function MobileHubTuile(props) {
     }
       else if (props.text === "A propos") {
        console.log(props.text);
+       dispatch(showAboutMe());
      }
      else if (props.text === "Ressources") {
       console.log(props.text);

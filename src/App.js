@@ -17,7 +17,7 @@ import MobileSectionProjets from "./components/mobileProjets/mobileProjets";
 function App() {
   const overlay = useSelector((state) => state.overlay.overlayState);
   const projets = useSelector((state) => state.projets.projetsState);
-console.log(projets);
+  console.log(projets);
   const titreProjet = useSelector((state) => state.tuilesInfos.titre);
   const descriptionProjet = useSelector(
     (state) => state.tuilesInfos.description,
@@ -42,9 +42,7 @@ console.log(projets);
       <Banner />
       <MobileHub />
       {/* <Projets /> */}
-      {projets && (
-        <Projets />
-      )}
+      {projets && <Projets />}
 
       {/* <MobileSectionProjets />
       <MobileAbout />

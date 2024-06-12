@@ -9,9 +9,9 @@ const MobileAbout = () => {
       <div className="MobileAboutNav">
         Navigation
         <ul>
-          <li>Navigation 1</li>
-          <li>Navigation 2</li>
-          <li>Navigation 3</li>
+          <li>A propos</li>
+          <li>Dîplomes</li>
+          <li>Expériences</li>
         </ul>
       </div>
       <div className="MobileAboutCompenents">

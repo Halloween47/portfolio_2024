@@ -217,9 +217,11 @@ code {
 }
 
 .mobile-contact {
+  position: absolute;
+  top: 0;
   background-color: red;
   width: 100%;
-  height: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

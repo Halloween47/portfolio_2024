@@ -1,9 +1,9 @@
 import MobileHubTuile from "../mobileHubTuile/MobileHubTuile";
-import testImg from "../../assets/logo.svg";
+
 import Projets from "../../assets/projets.png";
 import Profil from "../../assets/profil.png";
 import Ressources from "../../assets/ressources.png";
-import Contact from "../../assets/contact.png";
+import ImgContact from "../../assets/contact.png";
 import Stepper from "../stepper/stepper";
 
 function MobileHub() {
@@ -14,7 +14,7 @@ function MobileHub() {
         <MobileHubTuile img={Projets} text="Projets" />
         <MobileHubTuile img={Profil} text="A propos" />
         <MobileHubTuile img={Ressources} text="Ressources" />
-        <MobileHubTuile img={Contact} text="Contact" />
+        <MobileHubTuile img={ImgContact} text="Contact" />
       </div>
       <Stepper />
     </div>

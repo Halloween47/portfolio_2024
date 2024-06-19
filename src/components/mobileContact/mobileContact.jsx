@@ -1,11 +1,9 @@
-import FolderList from "./folderList";
+import ComponentContact from "../contact/componentContact";
 
 function MobileContact() {
   return (
     <div className="mobile-contact">
-      <h2>Contact</h2>
-      <FolderList />
-      <button>CV</button>
+      <ComponentContact />
     </div>
   );
 }

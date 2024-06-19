@@ -13,21 +13,17 @@ function MobileHubTuile(props) {
     if (props.text === "Projets") {
       console.log(props.text);
       dispatch(showProjets());
-      
+
       // ICI changement de statue du composant dans le store
-    }
-      else if (props.text === "A propos") {
-       console.log(props.text);
-       dispatch(showAboutMe());
-     }
-     else if (props.text === "Ressources") {
+    } else if (props.text === "A propos") {
       console.log(props.text);
-    }
-    else if (props.text === "Contact") {
+      dispatch(showAboutMe());
+    } else if (props.text === "Ressources") {
+      console.log(props.text);
+    } else if (props.text === "Contact") {
       console.log(props.text);
       dispatch(showContact());
-    }
-     else {
+    } else {
       console.log("autres");
     }
   };

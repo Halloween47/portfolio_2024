@@ -47,7 +47,6 @@ function App() {
       {projets && <Projets />}
       {contact && <MobileContact />}
       {about && <MobileAbout />}
-      
 
       {/* <MobileSectionProjets />
       <MobileAbout />

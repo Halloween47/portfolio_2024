@@ -8,13 +8,12 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     
     padding: 10px 0px;
 
     .component-contact {
-        background-color: rgb(132, 40, 40);
+        background-color: rgba(132, 40, 40, 0);
     }
     button {
         width: 90%;

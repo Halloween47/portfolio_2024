@@ -1,0 +1,54 @@
+.contact {
+    background-color: rgb(218, 22, 22);
+    
+    width: 90%;
+    height: 40vh;
+    
+    .imgProfil {
+        background-color: rgb(82, 82, 86);
+        width: 100%;
+        height: 80%;
+        margin: auto;
+        
+        img {
+            background-color: #17aa4f;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+    }
+    .infos {
+        background-color: rgb(0, 153, 255);
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 10px 0px;
+        
+        .zoneIdentity {
+            display: flex;
+            img {
+                margin: 0px 10px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+            .identityName {
+                margin: 0;
+                font-size: 1rem;
+                text-align: left;
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+                p:nth-child(1) {
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                }
+                
+            }
+        }
+        
+    }
+    
+}

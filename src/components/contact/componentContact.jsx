@@ -12,7 +12,7 @@ function ComponentContact() {
         <div className="zoneIdentity">
           <img src={ImgProfil} alt="" />
           <div className="identityName">
-            <p>Nom prenom</p>
+            <p>Thomas Leconte</p>
             <p>Information de contact</p>
           </div>
         </div>

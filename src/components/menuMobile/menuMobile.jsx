@@ -11,20 +11,28 @@ function MenuMobile() {
   return (
     <div className="menuMobile">
       <div className="menuElement">
-          <HomeIcon sx={{ fontSize: 40 }} />
+        <a href="">
+          <HomeIcon sx={{ fontSize: 35 }} />
         <p>Accueil</p>
+        </a>
       </div>
       <div className="menuElement">
-          <FolderSpecialIcon sx={{ fontSize: 40 }} />
+        <a href="">
+          <FolderSpecialIcon sx={{ fontSize: 35 }} />
         <p>Projets</p>
+        </a>
       </div>
       <div className="menuElement">
-          <PersonIcon sx={{ fontSize: 40 }} />
+        <a href="">
+          <PersonIcon sx={{ fontSize: 35 }} />
         <p>Profil</p>
+        </a>
       </div>
       <div className="menuElement">
-          <DescriptionIcon sx={{ fontSize: 40 }} />
+        <a href="">
+          <DescriptionIcon sx={{ fontSize: 35 }} />
         <p>Ressources</p>
+        </a>
       </div>
     </div>
   );

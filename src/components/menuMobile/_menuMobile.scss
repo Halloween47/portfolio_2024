@@ -1,5 +1,5 @@
 .menuMobile {
-    background-color: #c7d3c9;
+    background-color: #f1f6f2;
 
     position: absolute;
     bottom: 0;
@@ -8,6 +8,7 @@
     height: auto;
 
     display: flex;
+    justify-content: center;
     box-sizing: border-box;
 
     .menuElement {
@@ -15,11 +16,18 @@
         width: 20vw;
         height: auto;
 
-        margin: 15px;
-        p {
-            margin: 0;
-            padding: 0;
+        margin: 5px;
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            p {
+                // background-color: #7b0606;
+                margin: 0;
+                padding: 0;
+            }
         }
-    }
+        }
+        
 
 }

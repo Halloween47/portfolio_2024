@@ -39,20 +39,25 @@ code {
   }
 }
 .menuMobile {
-  background-color: #c7d3c9;
+  background-color: #f1f6f2;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: auto;
   display: flex;
+  justify-content: center;
   box-sizing: border-box;
 }
 .menuMobile .menuElement {
   width: 20vw;
   height: auto;
-  margin: 15px;
+  margin: 5px;
 }
-.menuMobile .menuElement p {
+.menuMobile .menuElement a {
+  text-decoration: none;
+  color: #000000;
+}
+.menuMobile .menuElement a p {
   margin: 0;
   padding: 0;
 }

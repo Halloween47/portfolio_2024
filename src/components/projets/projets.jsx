@@ -1,5 +1,6 @@
 import Projet from "../tuile_projet/projet";
 import CardProjet from "../projet/projet";
+import MenuMobile from "../menuMobile/menuMobile";
 
 function Projets() {
   return (
@@ -12,6 +13,7 @@ function Projets() {
         <CardProjet />
         <Projet />
       </div>
+      <MenuMobile />
     </div>
   );
 }

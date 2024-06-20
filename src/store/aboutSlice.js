@@ -27,8 +27,14 @@ const aboutSlice = createSlice({
             state.certificateState = false;
             state.experiencesState = true;
         },
+        hideAboutMe: (state) => {
+            state.aboutState = false;
+            state.aboutMeState = false;
+            state.certificateState = false;
+            state.experiencesState = false;
+        },
     }
 });
 
-export const { showAboutMe, showCertificate, showExperiences } = aboutSlice.actions;
+export const { showAboutMe, showCertificate, showExperiences, hideAboutMe } = aboutSlice.actions;
 export default aboutSlice.reducer;

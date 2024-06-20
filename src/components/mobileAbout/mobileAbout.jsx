@@ -8,6 +8,7 @@ import {
   showExperiences,
 } from "../../store/aboutSlice";
 import { useDispatch, useSelector } from "react-redux";
+import MenuMobile from "../menuMobile/menuMobile";
 
 const MobileAbout = () => {
   const aboutMe = useSelector((state) => state.about.aboutMeState);
@@ -60,6 +61,7 @@ const MobileAbout = () => {
         {certificate && <MobileCertificate />}
         {experiences && <ShowMore />}
       </div>
+      <MenuMobile />
     </div>
   );
 };

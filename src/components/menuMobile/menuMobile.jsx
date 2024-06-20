@@ -1,38 +1,73 @@
 import React from "react";
 
-import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
-import HomeIcon from '@mui/icons-material/Home';
-import PersonIcon from '@mui/icons-material/Person';
-import DescriptionIcon from '@mui/icons-material/Description';
+import FolderSpecialIcon from "@mui/icons-material/FolderSpecial";
+import HomeIcon from "@mui/icons-material/Home";
+import PersonIcon from "@mui/icons-material/Person";
+import DescriptionIcon from "@mui/icons-material/Description";
+import { useDispatch } from "react-redux";
+import { hideProjets, showProjets } from "../../store/projetsSlices";
+import { hideContact, showContact } from "../../store/contactSlice";
+import { hideAboutMe, showAboutMe } from "../../store/aboutSlice";
 
-import imgTest from "../../assets/projets.png";
+function MenuMobile(props) {
+  const dispatch = useDispatch();
 
-function MenuMobile() {
+  const handleClick = (e) => {
+    e.preventDefault();
+    // dispatch(showProjets());
+
+    if (
+      e.target.closest(".menuElement").querySelector("p").textContent ===
+      "Accueil"
+    ) {
+      console.log("IT WORKS !!! ACCUEIL");
+      dispatch(hideProjets());
+      dispatch(hideContact());
+      dispatch(hideAboutMe());
+    } else if (
+      e.target.closest(".menuElement").querySelector("p").textContent ===
+      "Projets"
+    ) {
+      console.log("IT WORKS !!! PROJETS");
+      dispatch(showProjets());
+      dispatch(hideContact());
+    //   dispatch(hideContact());
+      dispatch(hideAboutMe());
+    } else if (
+      e.target.closest(".menuElement").querySelector("p").textContent ===
+      "Profil"
+    ) {
+      console.log("IT WORKS !!! PROFIL");
+      dispatch(showAboutMe());
+      dispatch(hideProjets());
+      dispatch(hideContact());
+    } else if (
+      e.target.closest(".menuElement").querySelector("p").textContent ===
+      "Ressources"
+    ) {
+      console.log("IT WORKS !!! RESSOURCES");
+    } else {
+      console.log("NO !!!");
+    }
+  };
+
   return (
     <div className="menuMobile">
-      <div className="menuElement">
-        <a href="">
-          <HomeIcon sx={{ fontSize: 35 }} />
+      <div className="menuElement" onClick={handleClick}>
+        <HomeIcon sx={{ fontSize: 35 }} />
         <p>Accueil</p>
-        </a>
       </div>
-      <div className="menuElement">
-        <a href="">
-          <FolderSpecialIcon sx={{ fontSize: 35 }} />
+      <div className="menuElement" onClick={handleClick}>
+        <FolderSpecialIcon sx={{ fontSize: 35 }} />
         <p>Projets</p>
-        </a>
       </div>
-      <div className="menuElement">
-        <a href="">
-          <PersonIcon sx={{ fontSize: 35 }} />
+      <div className="menuElement" onClick={handleClick}>
+        <PersonIcon sx={{ fontSize: 35 }} />
         <p>Profil</p>
-        </a>
       </div>
-      <div className="menuElement">
-        <a href="">
-          <DescriptionIcon sx={{ fontSize: 35 }} />
+      <div className="menuElement" onClick={handleClick}>
+        <DescriptionIcon sx={{ fontSize: 35 }} />
         <p>Ressources</p>
-        </a>
       </div>
     </div>
   );

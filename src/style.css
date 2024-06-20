@@ -53,11 +53,7 @@ code {
   height: auto;
   margin: 5px;
 }
-.menuMobile .menuElement a {
-  text-decoration: none;
-  color: #000000;
-}
-.menuMobile .menuElement a p {
+.menuMobile .menuElement p {
   margin: 0;
   padding: 0;
 }
@@ -343,6 +339,7 @@ code {
   background-color: yellow;
   padding: 10px 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .section_projets h2 {
   padding: 0;

@@ -1,6 +1,7 @@
 @import 'sass/base';
 
-@import 'components/menu/menuMobile';
+@import 'components/menu/menu';
+@import 'components/menuMobile/menuMobile';
 
 @import 'components/banner/banner';
 
@@ -16,8 +17,8 @@
 @import 'components/mobileCertificate/mobileCertificate';
 
 @import 'components/mobileContact/mobileContact';
-
 @import 'components/contact/componentContact';
+
 
 // ANCIEN
 @import 'sass/hero';

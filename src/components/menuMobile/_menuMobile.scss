@@ -1,0 +1,25 @@
+.menuMobile {
+    background-color: #c7d3c9;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    box-sizing: border-box;
+
+    .menuElement {
+        // background-color: rgb(190, 139, 29);
+        width: 20vw;
+        height: auto;
+
+        margin: 15px;
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}

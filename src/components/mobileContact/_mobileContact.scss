@@ -2,7 +2,8 @@
     position: absolute;
     top: 0;
     
-    background-color: rgb(219, 211, 211);
+    // background-color: rgb(219, 211, 211);
+    background-color: rgb(196, 12, 12);
     width: 100%; 
     height: 100vh;
 
@@ -11,6 +12,10 @@
     align-items: center;
     
     padding: 10px 0px;
+
+    
+    box-sizing: border-box;
+
 
     .component-contact {
         background-color: rgba(132, 40, 40, 0);

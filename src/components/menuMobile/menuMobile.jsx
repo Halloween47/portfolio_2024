@@ -31,7 +31,7 @@ function MenuMobile(props) {
       console.log("IT WORKS !!! PROJETS");
       dispatch(showProjets());
       dispatch(hideContact());
-    //   dispatch(hideContact());
+      //   dispatch(hideContact());
       dispatch(hideAboutMe());
     } else if (
       e.target.closest(".menuElement").querySelector("p").textContent ===

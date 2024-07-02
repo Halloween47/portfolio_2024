@@ -65,6 +65,7 @@ function ComponentProjet() {
             <Typography variant="h6" gutterBottom>
               Projet Kasa
             </Typography>
+            
             <ExpandMore
               expand={expanded}
               onClick={handleExpandClick}
@@ -73,7 +74,14 @@ function ComponentProjet() {
             >
               <ExpandMoreIcon />
             </ExpandMore>
+            
           </CardActions>
+          <Stack direction="row" spacing={1} mx={1}>
+
+            <Chip label="React" />
+            <Chip label="Node" />
+            <Chip label="Express" />
+            </Stack>
         </CardContent>
         {/* <CardActions disableSpacing>
         <ExpandMore
@@ -86,11 +94,6 @@ function ComponentProjet() {
         </ExpandMore>
       </CardActions> */}
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <Stack direction="row" spacing={1} mx={1}>
-            <Chip label="Chip Filled" />
-            <Chip label="Chip Filled" />
-            <Chip label="Chip Filled" />
-          </Stack>
           <Stack direction="row" spacing={1} my={3}>
             <List sx={style}>
               <Divider variant="middle" component="li" />

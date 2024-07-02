@@ -6,12 +6,14 @@ import Ressources from "../../assets/ressources.png";
 import ImgContact from "../../assets/contact.png";
 import Stepper from "../stepper/stepper";
 
-import { Link } from "react-router-dom";
+import Menu from "../menu/menu";
+import Banner from "../banner/banner";
 
 function MobileHub() {
   return (
     <div className="mobile-hub">
-      {/* <h1>Mobile HUB</h1> */}
+      <Menu />
+      <Banner />
       <div className="zoneHub">
         <MobileHubTuile img={Projets} text="Projets" />
         <MobileHubTuile img={Profil} text="A propos" />

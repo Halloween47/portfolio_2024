@@ -23,19 +23,19 @@ function Accueil() {
             </Link>
           </li>
           <li className="mobile-tuile">
-            <Link to="/projets" className="link">
+            <Link to="/aPropos" className="link">
               <img src={Profil} alt="" />
               <p className="texteTuile">A propos</p>
             </Link>
           </li>
           <li className="mobile-tuile">
-            <Link to="/projets" className="link">
+            <Link to="/ressources" className="link">
               <img src={Ressources} alt="" />
               <p className="texteTuile">Ressources</p>
             </Link>
           </li>
           <li className="mobile-tuile">
-            <Link to="/projets" className="link">
+            <Link to="/contact" className="link">
               <img src={ImgContact} alt="" />
               <p className="texteTuile">Contact</p>
             </Link>

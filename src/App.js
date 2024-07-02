@@ -41,6 +41,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/projets" element={<Projet />} />
+          <Route path="/aPropos" element={<MobileAbout />} />
+          <Route path="/contact" element={<MobileContact />} />
+          <Route path="/ressources" element={<MobileContact />} />
         </Routes>
       </Router>
       {/* {overlay && (

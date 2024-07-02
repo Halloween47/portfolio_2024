@@ -62,13 +62,13 @@ function MenuMobile(props) {
           </Link>
         </li>
         <li>
-          <Link to="/" className="menuElement">
+          <Link to="/projets" className="menuElement">
             <FolderSpecialIcon sx={{ fontSize: 35 }} />
             <p>Projets</p>
           </Link>
         </li>
         <li>
-          <Link to="/" className="menuElement">
+          <Link to="/aPropos" className="menuElement">
             <PersonIcon sx={{ fontSize: 35 }} />
             <p>Profil</p>
           </Link>

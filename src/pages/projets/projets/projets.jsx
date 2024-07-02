@@ -1,7 +1,7 @@
-import Projet from "../tuile_projet/projet";
-import CardProjet from "../projet/projet";
-import MenuMobile from "../menuMobile/menuMobile";
-import ComponentProjet from "../componentProjet/componentProjet";
+import Projet from "../../../components/tuile_projet/projet";
+import CardProjet from "../../../components/projet/projet";
+import MenuMobile from "../../../components/menuMobile/menuMobile";
+import ComponentProjet from "../../../components/componentProjet/componentProjet";
 
 function Projets() {
   return (
@@ -11,9 +11,6 @@ function Projets() {
         <p>Exemple de projets</p>
       </div>
       <div className="list_projets">
-        <ComponentProjet />
-        <CardProjet />
-        <Projet />
       </div>
       <MenuMobile />
     </div>

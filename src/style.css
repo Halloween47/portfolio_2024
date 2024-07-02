@@ -1,3 +1,46 @@
+.mobile-hub {
+  background-color: 17181C !important;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mobile-hub .zoneHub {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section_projets {
+  position: absolute;
+  top: 0;
+  height: auto;
+  background-color: yellow;
+  padding: 10px 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.section_projets h2 {
+  padding: 0;
+  margin: 0;
+}
+.section_projets p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.section_projets .list_projets {
+  background-color: red;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -103,21 +146,6 @@ code {
     height: auto;
   }
 }
-.mobile-hub {
-  background-color: 17181C !important;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.mobile-hub .zoneHub {
-  width: 90%;
-  height: 50vh;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .mobile-tuile {
   background-color: #22232C;
   width: 40vw;
@@ -212,7 +240,11 @@ code {
   font-size: 0.7rem;
 }
 
-.textLeft {
+.componentProjet {
+  display: flex;
+  justify-content: center;
+}
+.componentProjet .textLeft {
   text-align: left !important;
 }
 
@@ -337,34 +369,6 @@ code {
     color: rgb(171, 185, 15);
   }
 }
-.section_projets {
-  position: absolute;
-  top: 0;
-  height: auto;
-  background-color: yellow;
-  padding: 10px 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.section_projets h2 {
-  padding: 0;
-  margin: 0;
-}
-.section_projets p {
-  margin: 0;
-  padding-bottom: 10px;
-}
-.section_projets .list_projets {
-  background-color: red;
-  width: 100%;
-  height: auto;
-  padding: 20px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 50px;
-}
-
 .projet {
   background-color: violet;
   width: 15vw;

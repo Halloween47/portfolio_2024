@@ -1,3 +1,7 @@
-.textLeft {
-    text-align: left !important;
+.componentProjet {
+    display: flex;
+    justify-content: center;
+    .textLeft {
+        text-align: left !important;
+    }
 }

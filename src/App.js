@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import Overlay from "./components/overlay/overlay";
-import Projets from "./components/projets/projets";
+import Projets from "./pages/projets/projets/projets";
 import CardProjet from "./components/projet/projet";
 import About from "./components/about/about";
 import Menu from "./components/menu/menu";
@@ -16,6 +16,8 @@ import MonRouter from "./monRouter";
 // import CustomizedTimeline from "./components/mobileCertificate/mobileCertificate";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MAJComponentProjets from "./components/MAJComponentProjets/MAJComponentProjets";
+import Projet from "./components/projet/projet";
+import ComponentProjet from "./components/componentProjet/componentProjet";
 
 
 
@@ -40,7 +42,7 @@ function App() {
       <Router>
       <Routes>
         <Route path="/" element={<MobileHub />} />
-        <Route path="/projets" element={<MAJComponentProjets />} />
+        <Route path="/projets" element={<Projet />} />
       </Routes>
     </Router>
       {/* {overlay && (

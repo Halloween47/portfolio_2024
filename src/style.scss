@@ -1,3 +1,9 @@
+//////////////REFACTO/////////////////////
+@import './pages/Accueil/mobile-hub/mobileHub';
+@import './pages/projets/projets/projets';
+///////////////////////////////////
+///////////////////////////////////
+
 @import 'sass/base';
 
 @import 'components/menu/menu';
@@ -5,7 +11,7 @@
 
 @import 'components/banner/banner';
 
-@import 'components/mobile-hub/mobileHub';
+// @import 'components/mobile-hub/mobileHub';
 @import 'components/mobileHubTuile/mobileHubTuile';
 @import 'components/stepper/stepper';
 
@@ -27,7 +33,7 @@
 @import 'sass/hero';
 @import 'sass/heroMobile';
 
-@import 'components/projets/projets';
+// @import 'components/projets/projets';
 @import 'components/tuile_projet/projet';
 @import 'components/overlay/overlay';
 

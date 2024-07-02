@@ -2,15 +2,26 @@
   background-color: 17181C !important;
   width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 .mobile-hub .zoneHub {
-  width: 90%;
-  height: 50vh;
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
+}
+.mobile-hub .zoneHub ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .section_projets {
@@ -39,6 +50,31 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
+}
+
+.mobile-tuile {
+  background-color: #22232C;
+  width: 40vw;
+  height: 40vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 20px 10px;
+  padding: 5px;
+}
+.mobile-tuile .link {
+  text-decoration: none;
+  color: inherit;
+}
+.mobile-tuile .link img {
+  width: 40%;
+  height: auto;
+}
+.mobile-tuile .link p {
+  font-size: 20px;
+  color: inherit;
 }
 
 body {
@@ -172,14 +208,20 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0px 10px 20px 10px;
   padding: 5px;
 }
-.mobile-tuile img {
+.mobile-tuile .link {
+  text-decoration: none;
+  color: inherit;
+}
+.mobile-tuile .link img {
   width: 40%;
   height: auto;
 }
-.mobile-tuile p {
+.mobile-tuile .link p {
   font-size: 20px;
+  color: inherit;
 }
 
 .stepper {

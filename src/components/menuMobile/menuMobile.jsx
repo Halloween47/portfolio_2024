@@ -56,27 +56,27 @@ function MenuMobile(props) {
     <div className="menuMobile">
       <ul>
         <li>
-          <Link to="/"  className="menuElement">
+          <Link to="/" className="menuElement">
             <HomeIcon sx={{ fontSize: 35 }} />
             <p>Accueil</p>
           </Link>
         </li>
         <li>
-          <Link to="/"  className="menuElement">
-          <FolderSpecialIcon sx={{ fontSize: 35 }} />
-          <p>Projets</p>
+          <Link to="/" className="menuElement">
+            <FolderSpecialIcon sx={{ fontSize: 35 }} />
+            <p>Projets</p>
           </Link>
         </li>
         <li>
-          <Link to="/"  className="menuElement">
-          <PersonIcon sx={{ fontSize: 35 }} />
-          <p>Profil</p>
+          <Link to="/" className="menuElement">
+            <PersonIcon sx={{ fontSize: 35 }} />
+            <p>Profil</p>
           </Link>
         </li>
         <li>
-          <Link to="/"  className="menuElement">
-          <DescriptionIcon sx={{ fontSize: 35 }} />
-          <p>Ressources</p>
+          <Link to="/" className="menuElement">
+            <DescriptionIcon sx={{ fontSize: 35 }} />
+            <p>Ressources</p>
           </Link>
         </li>
       </ul>

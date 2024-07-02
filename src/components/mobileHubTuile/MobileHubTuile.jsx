@@ -2,6 +2,7 @@ import { useDispatch } from "react-redux";
 import { showProjets } from "../../store/projetsSlices";
 import { showContact } from "../../store/contactSlice";
 import { showAboutMe } from "../../store/aboutSlice";
+import { Link } from "react-router-dom";
 
 function MobileHubTuile(props) {
   const dispatch = useDispatch();
@@ -29,11 +30,10 @@ function MobileHubTuile(props) {
   };
 
   return (
-    <div className="mobile-tuile" onClick={handleClickProjets}>
-      {/* <a href="#"> */}
+    // <div className="mobile-tuile" onClick={handleClickProjets}>
+    <div className="mobile-tuile">
       <img src={props.img} alt="" />
       <p className="texteTuile">{props.text}</p>
-      {/* </a> */}
     </div>
   );
 }

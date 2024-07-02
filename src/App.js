@@ -12,7 +12,12 @@ import MobileAbout from "./components/mobileAbout/mobileAbout";
 import MobileCertificate from "./components/mobileCertificate/mobileCertificate";
 import BasicTimeline from "./components/mobileCertificate/mobileCertificate";
 import MobileSectionProjets from "./components/mobileProjets/mobileProjets";
+import MonRouter from "./monRouter";
 // import CustomizedTimeline from "./components/mobileCertificate/mobileCertificate";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MAJComponentProjets from "./components/MAJComponentProjets/MAJComponentProjets";
+
+
 
 function App() {
   const overlay = useSelector((state) => state.overlay.overlayState);
@@ -31,7 +36,14 @@ function App() {
   const dispatch = useDispatch();
   return (
     <div className="App">
-      {overlay && (
+      {/* <MonRouter /> */}
+      <Router>
+      <Routes>
+        <Route path="/" element={<MobileHub />} />
+        <Route path="/projets" element={<MAJComponentProjets />} />
+      </Routes>
+    </Router>
+      {/* {overlay && (
         <Overlay
           titre={titreProjet}
           description={descriptionProjet}
@@ -43,20 +55,10 @@ function App() {
       <Menu />
       <Banner />
       <MobileHub />
-      {/* <Projets /> */}
       {projets && <Projets />}
       {contact && <MobileContact />}
-      {about && <MobileAbout />}
+      {about && <MobileAbout />} */}
 
-      {/* <MobileSectionProjets />
-      <MobileAbout />
-      <MobileContact />
-      <div className="hero">
-        <p>Thomas Leconte</p>
-        <h1>Développeur Javascript React</h1>
-      </div>
-      <Projets />
-      <About /> */}
     </div>
   );
 }

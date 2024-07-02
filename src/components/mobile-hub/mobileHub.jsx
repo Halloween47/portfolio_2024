@@ -6,6 +6,8 @@ import Ressources from "../../assets/ressources.png";
 import ImgContact from "../../assets/contact.png";
 import Stepper from "../stepper/stepper";
 
+import { Link } from "react-router-dom";
+
 function MobileHub() {
   return (
     <div className="mobile-hub">

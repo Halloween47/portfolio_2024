@@ -22,7 +22,7 @@ import Stack from "@mui/material/Stack";
 import Chip from "@mui/material/Chip";
 import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
-import Box from '@mui/material/Box';
+import Box from "@mui/material/Box";
 
 const style = {
   py: 0,
@@ -65,7 +65,7 @@ function ComponentProjet() {
             <Typography variant="h6" gutterBottom>
               Projet Kasa
             </Typography>
-            
+
             <ExpandMore
               expand={expanded}
               onClick={handleExpandClick}
@@ -74,14 +74,12 @@ function ComponentProjet() {
             >
               <ExpandMoreIcon />
             </ExpandMore>
-            
           </CardActions>
           <Stack direction="row" spacing={1} mx={1}>
-
             <Chip label="React" />
             <Chip label="Node" />
             <Chip label="Express" />
-            </Stack>
+          </Stack>
         </CardContent>
         {/* <CardActions disableSpacing>
         <ExpandMore
@@ -106,7 +104,7 @@ function ComponentProjet() {
           </Stack>
           <Stack direction="row" spacing={1} mx={1}>
             <Typography variant="subtitle1" gutterBottom>
-            Projet OpenClassRooms
+              Projet OpenClassRooms
             </Typography>
           </Stack>
 
@@ -116,22 +114,25 @@ function ComponentProjet() {
             </List>
           </Stack>
           <CardContent>
-          <Box>
-            {/* <Typography variant="body2" color="text.secondary"> */}
-            <Stack direction="row" spacing={1}>
-            <Typography variant="body1" color="text.secondary" className="textLeft">
-              This impressive paella is a perfect party dish and a fun meal to
-              cook together with your guests. Add 1 cup of frozen peas along
-              with the mussels, if you like.
-            </Typography>
-            </Stack>
-            <Stack direction="row" spacing={1}>
-
-            <Typography  className="textLeft">
-              Heat 1/2 cup of the broth in a pot until simmering, add saffron
-              and set aside for 10 minutes.
-            </Typography>
-            </Stack>
+            <Box>
+              {/* <Typography variant="body2" color="text.secondary"> */}
+              <Stack direction="row" spacing={1}>
+                <Typography
+                  variant="body1"
+                  color="text.secondary"
+                  className="textLeft"
+                >
+                  This impressive paella is a perfect party dish and a fun meal
+                  to cook together with your guests. Add 1 cup of frozen peas
+                  along with the mussels, if you like.
+                </Typography>
+              </Stack>
+              <Stack direction="row" spacing={1}>
+                <Typography className="textLeft">
+                  Heat 1/2 cup of the broth in a pot until simmering, add
+                  saffron and set aside for 10 minutes.
+                </Typography>
+              </Stack>
             </Box>
           </CardContent>
         </Collapse>

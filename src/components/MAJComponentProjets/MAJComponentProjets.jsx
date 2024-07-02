@@ -1,18 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const MAJComponentProjets = () => {
   return (
     <div className="test">
-<ul>
+      <ul>
         <li>
-      <Link to="/projets">Projets</Link>
-
+          <Link to="/projets">Projets</Link>
         </li>
       </ul>
     </div>
-    
-  )
-}
+  );
+};
 
-export default MAJComponentProjets
+export default MAJComponentProjets;

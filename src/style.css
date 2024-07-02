@@ -14,13 +14,13 @@
 }
 
 .section_projets {
-  position: absolute;
-  top: 0;
-  height: auto;
   background-color: yellow;
+  width: 100%;
+  height: 100vh;
   padding: 10px 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-y: scroll;
 }
 .section_projets h2 {
   padding: 0;
@@ -88,9 +88,26 @@ code {
   bottom: 0;
   width: 100%;
   height: auto;
-  display: flex;
-  justify-content: center;
   box-sizing: border-box;
+}
+.menuMobile ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0px 5px 0px;
+  padding: 0;
+}
+.menuMobile ul li {
+  margin: 0;
+  list-style: none;
+}
+.menuMobile ul li .menuElement {
+  text-decoration: none;
+  color: inherit;
+}
+.menuMobile ul li .menuElement p {
+  margin: 0;
+  padding: 0;
 }
 .menuMobile .menuElement {
   width: 20vw;

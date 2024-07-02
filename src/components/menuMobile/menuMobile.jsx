@@ -8,6 +8,7 @@ import { useDispatch } from "react-redux";
 import { hideProjets, showProjets } from "../../store/projetsSlices";
 import { hideContact, showContact } from "../../store/contactSlice";
 import { hideAboutMe, showAboutMe } from "../../store/aboutSlice";
+import { Link } from "react-router-dom";
 
 function MenuMobile(props) {
   const dispatch = useDispatch();
@@ -53,11 +54,33 @@ function MenuMobile(props) {
 
   return (
     <div className="menuMobile">
-      <div className="menuElement" onClick={handleClick}>
-        <HomeIcon sx={{ fontSize: 35 }} />
-        <p>Accueil</p>
-      </div>
-      <div className="menuElement" onClick={handleClick}>
+      <ul>
+        <li>
+          <Link to="/"  className="menuElement">
+            <HomeIcon sx={{ fontSize: 35 }} />
+            <p>Accueil</p>
+          </Link>
+        </li>
+        <li>
+          <Link to="/"  className="menuElement">
+          <FolderSpecialIcon sx={{ fontSize: 35 }} />
+          <p>Projets</p>
+          </Link>
+        </li>
+        <li>
+          <Link to="/"  className="menuElement">
+          <PersonIcon sx={{ fontSize: 35 }} />
+          <p>Profil</p>
+          </Link>
+        </li>
+        <li>
+          <Link to="/"  className="menuElement">
+          <DescriptionIcon sx={{ fontSize: 35 }} />
+          <p>Ressources</p>
+          </Link>
+        </li>
+      </ul>
+      {/* <div className="menuElement" onClick={handleClick}>
         <FolderSpecialIcon sx={{ fontSize: 35 }} />
         <p>Projets</p>
       </div>
@@ -68,7 +91,7 @@ function MenuMobile(props) {
       <div className="menuElement" onClick={handleClick}>
         <DescriptionIcon sx={{ fontSize: 35 }} />
         <p>Ressources</p>
-      </div>
+      </div> */}
     </div>
   );
 }

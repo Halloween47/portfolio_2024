@@ -6,7 +6,6 @@ import CardProjet from "./components/projet/projet";
 import About from "./components/about/about";
 import Menu from "./components/menu/menu";
 import Banner from "./components/banner/banner";
-import MobileHub from "./components/mobile-hub/mobileHub";
 import MobileContact from "./components/mobileContact/mobileContact";
 import MobileAbout from "./components/mobileAbout/mobileAbout";
 import MobileCertificate from "./components/mobileCertificate/mobileCertificate";
@@ -14,12 +13,11 @@ import BasicTimeline from "./components/mobileCertificate/mobileCertificate";
 import MobileSectionProjets from "./components/mobileProjets/mobileProjets";
 import MonRouter from "./monRouter";
 // import CustomizedTimeline from "./components/mobileCertificate/mobileCertificate";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MAJComponentProjets from "./components/MAJComponentProjets/MAJComponentProjets";
-import Projet from "./components/projet/projet";
+import Projet from "./pages/projets/projets/projets";
 import ComponentProjet from "./components/componentProjet/componentProjet";
-
-
+import Accueil from "./pages/accueil/accueil";
 
 function App() {
   const overlay = useSelector((state) => state.overlay.overlayState);
@@ -40,11 +38,11 @@ function App() {
     <div className="App">
       {/* <MonRouter /> */}
       <Router>
-      <Routes>
-        <Route path="/" element={<MobileHub />} />
-        <Route path="/projets" element={<Projet />} />
-      </Routes>
-    </Router>
+        <Routes>
+          <Route path="/" element={<Accueil />} />
+          <Route path="/projets" element={<Projet />} />
+        </Routes>
+      </Router>
       {/* {overlay && (
         <Overlay
           titre={titreProjet}
@@ -60,7 +58,6 @@ function App() {
       {projets && <Projets />}
       {contact && <MobileContact />}
       {about && <MobileAbout />} */}
-
     </div>
   );
 }

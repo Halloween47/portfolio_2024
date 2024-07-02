@@ -11,6 +11,10 @@ function Projets() {
         <p>Exemple de projets</p>
       </div>
       <div className="list_projets">
+        <ComponentProjet />
+        <ComponentProjet />
+        <ComponentProjet />
+        <ComponentProjet />
       </div>
       <MenuMobile />
     </div>

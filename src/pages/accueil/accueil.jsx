@@ -1,19 +1,27 @@
-import MobileHubTuile from "../mobileHubTuile/MobileHubTuile";
+import MobileHubTuile from "../../components/mobileHubTuile/MobileHubTuile";
 
 import Projets from "../../assets/projets.png";
 import Profil from "../../assets/profil.png";
 import Ressources from "../../assets/ressources.png";
 import ImgContact from "../../assets/contact.png";
-import Stepper from "../stepper/stepper";
+import Stepper from "../../components/stepper/stepper";
 
-import Menu from "../menu/menu";
-import Banner from "../banner/banner";
+import Menu from "../../components/menu/menu";
+import Banner from "../../components/banner/banner";
+import { Link } from "react-router-dom";
 
-function MobileHub() {
+function Accueil() {
   return (
     <div className="mobile-hub">
       <Menu />
       <Banner />
+      <div className="zoneHub">
+        <ul>
+          <li>
+            <Link to="/projets">Projets</Link>
+          </li>
+        </ul>
+      </div>
       <div className="zoneHub">
         <MobileHubTuile img={Projets} text="Projets" />
         <MobileHubTuile img={Profil} text="A propos" />
@@ -24,4 +32,4 @@ function MobileHub() {
     </div>
   );
 }
-export default MobileHub;
+export default Accueil;

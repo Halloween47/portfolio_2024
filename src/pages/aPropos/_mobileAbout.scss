@@ -1,26 +1,44 @@
 .MobileAbout {
-    background-color: #470d97;
-
-position: absolute;
-top: 0;
-
-width: 100%;
-height: 100vh;
-
+    // background-color: #470d97;
+    background-color: $primary-color;
+    
+    // position: absolute;
+    // top: 0;
+    
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    
     .MobileAboutNav {
         // background-color: #56f869;
         background-color: $test-color1;
         ul {
+            background-color: #56f869;
+            margin: 50px 0;
+            padding: 20px 0;
+            background-color: $secondary-color;
             display: flex; 
             justify-content: space-around;
-            margin: 0px 0px 10px 0px; 
+            margin: 0px 0px 0px 0px; 
             padding: 10px 0px 10px 0px;
             li {
+                padding: 10px 0px 10px 0px;
+                // background-color: $test-color1;
+                color: $font-color;
                 list-style: none;
             }    
         }
     } 
     .MobileAboutCompenents {
-        background-color: #7da7f0;
+        // background-color: blue;
+        
+        width: 100%;
+        height: 100%;
+
+        margin: auto 0;
+        padding: auto 0;
+        
+        // display: flex;
+        // align-items: flex-start;
     }
 }

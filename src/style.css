@@ -53,26 +53,71 @@
 }
 
 .MobileAbout {
-  background-color: #470d97;
-  position: absolute;
-  top: 0;
+  background-color: #17181C;
   width: 100%;
   height: 100vh;
+  overflow-y: scroll;
 }
 .MobileAbout .MobileAboutNav {
   background-color: #0fc567;
 }
 .MobileAbout .MobileAboutNav ul {
+  background-color: #56f869;
+  margin: 50px 0;
+  padding: 20px 0;
+  background-color: #22232C;
   display: flex;
   justify-content: space-around;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 10px 0px 10px 0px;
 }
 .MobileAbout .MobileAboutNav ul li {
+  padding: 10px 0px 10px 0px;
+  color: #f3f4f9;
   list-style: none;
 }
 .MobileAbout .MobileAboutCompenents {
-  background-color: #7da7f0;
+  width: 100%;
+  height: 100%;
+  margin: auto 0;
+  padding: auto 0;
+}
+
+.menuMobile {
+  background-color: #f1f6f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.menuMobile ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0px 5px 0px;
+  padding: 0;
+}
+.menuMobile ul li {
+  margin: 0;
+  list-style: none;
+}
+.menuMobile ul li .menuElement {
+  text-decoration: none;
+  color: inherit;
+}
+.menuMobile ul li .menuElement p {
+  margin: 0;
+  padding: 0;
+}
+.menuMobile .menuElement {
+  width: 20vw;
+  height: auto;
+  margin: 5px;
+}
+.menuMobile .menuElement p {
+  margin: 0;
+  padding: 0;
 }
 
 .mobile-tuile {
@@ -98,6 +143,13 @@
 .mobile-tuile .link p {
   font-size: 20px;
   color: inherit;
+}
+
+.mobileAboutMe {
+  background-color: #22232C;
+  margin: 20px;
+  color: #f3f4f9;
+  padding: 10px;
 }
 
 body {
@@ -141,43 +193,6 @@ code {
     color: white;
   }
 }
-.menuMobile {
-  background-color: #f1f6f2;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-}
-.menuMobile ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin: 5px 0px 5px 0px;
-  padding: 0;
-}
-.menuMobile ul li {
-  margin: 0;
-  list-style: none;
-}
-.menuMobile ul li .menuElement {
-  text-decoration: none;
-  color: inherit;
-}
-.menuMobile ul li .menuElement p {
-  margin: 0;
-  padding: 0;
-}
-.menuMobile .menuElement {
-  width: 20vw;
-  height: auto;
-  margin: 5px;
-}
-.menuMobile .menuElement p {
-  margin: 0;
-  padding: 0;
-}
-
 @media only screen and (max-width: 768px) {
   .zone-banner {
     width: 90%;
@@ -330,17 +345,30 @@ code {
   text-align: left !important;
 }
 
-.mobileAboutMe {
-  background-color: #17181C;
-  margin: 20px;
-  color: #f3f4f9;
-  padding: 10px;
-}
-
 .mobileCertificate {
-  background-color: #c0107f;
+  background-color: #22232C;
+  color: #f3f4f9;
   width: 100%;
   height: auto;
+  margin: 10px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobileCertificate .timeline {
+  background-color: #22232C;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.mobileCertificate .timeline .timelineItem {
+  color: #0fc567;
+}
+.mobileCertificate .time-certificate {
+  color: #f3f4f9;
 }
 
 .mobile-contact {

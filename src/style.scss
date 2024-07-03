@@ -5,14 +5,15 @@
 @import './pages/projets/projets/projets';
 @import './pages/aPropos/mobileAbout';
 
+@import './components/componentMenu/menuMobile';
 @import './components/mobileHubTuile/mobileHubTuile';
+@import './components/componentAboutMe/mobileAboutMe';
 ///////////////////////////////////
 ///////////////////////////////////
 
 @import 'sass/base';
 
 @import 'components/menu/menu';
-@import 'components/menuMobile/menuMobile';
 
 @import 'components/banner/banner';
 
@@ -25,7 +26,6 @@
 @import 'components/componentProjet/componentProjet';
 
 // @import 'components/mobileAbout/mobileAbout';
-@import 'components/mobileAboutMe/mobileAboutMe';
 @import 'components/mobileCertificate/mobileCertificate';
 
 @import 'components/mobileContact/mobileContact';

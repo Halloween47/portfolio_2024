@@ -52,11 +52,7 @@ const MobileAbout = () => {
         </ul>
       </div>
       <div className="MobileAboutCompenents">
-        MobileAboutCompenents
         {aboutMe && <MobileAboutMe />}
-        {/* <MobileAboutMe />
-        <MobileCertificate />
-        <ShowMore /> */}
         {certificate && <MobileCertificate />}
         {experiences && <ShowMore />}
       </div>

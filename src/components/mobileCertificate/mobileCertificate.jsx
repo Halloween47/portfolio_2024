@@ -15,14 +15,15 @@ import Typography from "@mui/material/Typography";
 function MobileCertificate() {
   return (
     <div className="mobileCertificate">
-      <h2>test</h2>
-      <Timeline>
-        <TimelineItem>
+      <h2>Dîplôme</h2>
+      <Timeline className="timeline">
+        <TimelineItem className="timelineItem">
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
             align="right"
             variant="body2"
             color="text.secondary"
+            className="time-certificate"
           >
             9:30 am
           </TimelineOppositeContent>
@@ -40,11 +41,12 @@ function MobileCertificate() {
             <Typography>Because you need strength</Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        <TimelineItem className="timelineItem">
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
             variant="body2"
             color="text.secondary"
+            className="time-certificate"
           >
             10:00 am
           </TimelineOppositeContent>
@@ -62,7 +64,7 @@ function MobileCertificate() {
             <Typography>Because it&apos;s awesome!</Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        <TimelineItem className="timelineItem">
           <TimelineSeparator>
             <TimelineConnector />
             <TimelineDot color="primary" variant="outlined">
@@ -77,7 +79,7 @@ function MobileCertificate() {
             <Typography>Because you need rest</Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        <TimelineItem className="timelineItem">
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
             <TimelineDot color="secondary">

@@ -4,7 +4,7 @@ const aboutSlice = createSlice({
     name: 'about',
     initialState: {
         aboutState: false,
-        aboutMeState: false,
+        aboutMeState: true,
         certificateState: false,
         experiencesState: false
     },

@@ -1,14 +1,14 @@
 import React from "react";
-import MobileAboutMe from "../mobileAboutMe/mobileAboutMe";
-import MobileCertificate from "../mobileCertificate/mobileCertificate";
-import ShowMore from "../showMore/showMore";
+import MobileAboutMe from "../../components/componentAboutMe/mobileAboutMe";
+import MobileCertificate from "../../components/mobileCertificate/mobileCertificate";
+import ShowMore from "../../components/showMore/showMore";
 import {
   showAboutMe,
   showCertificate,
   showExperiences,
 } from "../../store/aboutSlice";
 import { useDispatch, useSelector } from "react-redux";
-import MenuMobile from "../menuMobile/menuMobile";
+import MenuMobile from "../../components/menuMobile/menuMobile";
 
 const MobileAbout = () => {
   const aboutMe = useSelector((state) => state.about.aboutMeState);
@@ -39,7 +39,6 @@ const MobileAbout = () => {
   return (
     <div className="MobileAbout">
       <div className="MobileAboutNav">
-        Navigation
         <ul>
           <li className="MobileAboutNavLi" onClick={handleClickNavItem}>
             A propos

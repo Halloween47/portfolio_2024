@@ -7,7 +7,7 @@ import About from "./components/about/about";
 import Menu from "./components/menu/menu";
 import Banner from "./components/banner/banner";
 import MobileContact from "./components/mobileContact/mobileContact";
-import MobileAbout from "./components/mobileAbout/mobileAbout";
+import MobileAbout from "./pages/aPropos/mobileAbout";
 import MobileCertificate from "./components/mobileCertificate/mobileCertificate";
 import BasicTimeline from "./components/mobileCertificate/mobileCertificate";
 import MobileSectionProjets from "./components/mobileProjets/mobileProjets";

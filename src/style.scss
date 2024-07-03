@@ -3,6 +3,7 @@
 
 @import './pages/accueil/accueilMobile';
 @import './pages/projets/projets/projets';
+@import './pages/aPropos/mobileAbout';
 
 @import './components/mobileHubTuile/mobileHubTuile';
 ///////////////////////////////////
@@ -23,7 +24,7 @@
 @import 'components/projet/mobileProjet';
 @import 'components/componentProjet/componentProjet';
 
-@import 'components/mobileAbout/mobileAbout';
+// @import 'components/mobileAbout/mobileAbout';
 @import 'components/mobileAboutMe/mobileAboutMe';
 @import 'components/mobileCertificate/mobileCertificate';
 
